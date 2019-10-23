@@ -28,7 +28,7 @@ $authors = [
     ],
 ];
 
-$newsPosts = [
+$articles = [
     [
         'title' => 'I do really know nothing',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lorem a nisl ultricies sollicitudin eu quis ligula. Quisque libero tellus, aliquet at lacinia at, volutpat et purus. Cras cursus augue et lorem sollicitudin cursus. Vestibulum non nibh faucibus metus vulputate tincidunt non id felis. Fusce finibus cursus nibh et pharetra. Fusce lectus nisi, malesuada eu libero quis, pellentesque scelerisque tortor. Sed elementum cursus arcu, eget venenatis felis iaculis nec. Pellentesque elit quam, auctor ut metus at, lobortis dictum augue. Nam consequat nibh nec rutrum finibus.<br>
