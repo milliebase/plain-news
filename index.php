@@ -25,8 +25,8 @@ require __DIR__.'/functions.php';
             <h1><?php echo $article['title']; ?></h1>
             <p class="date"><?php echo $article['published'] ?></p>
             <p class="content"><?php echo $article['content']; ?></p>
-            <p class="author"><?php echo $article['author_id']; ?></p>
-            <button class="likes"><?php echo $article['likes'] ?></button>
+            <p class="author"><?php echo getName($article, $authors); ?></p>
+            <button class="likes"><?php echo $article['likes']; ?></button>
         </article>
         <?php endforeach; ?>
     </div>
