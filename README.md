@@ -1,2 +1,2 @@
-# newsfeeed
+# Newsfeed
 First school assignment
