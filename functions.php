@@ -2,5 +2,24 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
+/**
+ * Checks if both arrays have a common value (id)
+ * and returns the belonging name from the second array.
+ *
+ * @param array $article
+ * @param array $people
+ * @return string
+ */
+function getName(array $article, array $people): string
+{
+    $articlePersonId = $article['authorId'];
+
+    foreach ($people as $person) {
+        $id = $person['id'];
+        $name = $person['name'];
+
+        if ($id === $articlePersonId) {
+            return $name;
+        }
+    }
+};
