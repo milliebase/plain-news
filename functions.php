@@ -2,24 +2,16 @@
 
 declare(strict_types=1);
 
+require __DIR__.'/data.php';
+
 /**
- * Checks if both arrays have a common value (id)
- * and returns the belonging name from the second array.
+ * Sort the dates in descending order.
  *
- * @param array $article
- * @param array $people
- * @return string
+ * @param array $a
+ * @param arrray $b
+ * @return integer
  */
-function getName(array $article, array $people): string
+function sortDates (array $a, array $b): int
 {
-    $articlePersonId = $article['authorId'];
-
-    foreach ($people as $person) {
-        $id = $person['id'];
-        $name = $person['name'];
-
-        if ($id === $articlePersonId) {
-            return $name;
-        }
-    }
+    return strtotime($b['published']) - strtotime($a['published']);
 };
