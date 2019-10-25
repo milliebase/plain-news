@@ -5,7 +5,7 @@ declare(strict_types=1);
 require __DIR__.'/data.php';
 
 /**
- * Sort the dates in descending order.
+ * Callback function for usort and sort the dates in descending order.
  *
  * @param array $a
  * @param arrray $b
