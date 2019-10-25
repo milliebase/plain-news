@@ -19,10 +19,18 @@ usort($articles, "sortDates"); //Sort the dates of the articles in descending or
     <title>Newsfeed</title>
     <link href='https://unpkg.com/sanitize.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,300,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,300,500,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="header">
         <h1>King's Landing Times</h1>
+
+        <ul class="menu">
+            <li>Jon Snow</li>
+            <li>Arya Stark</li>
+            <li>Sansa Stark</li>
+            <li>Brienne of Tarth</li>
+            <li>Tyrion Lannister</li>
+        </ul>
     </nav>
