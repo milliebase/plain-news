@@ -6,6 +6,8 @@
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
+usort($articles, "sortDates"); //Sort the dates of the articles.
+
 ?>
 
 <!DOCTYPE html>
@@ -20,12 +22,12 @@ require __DIR__.'/functions.php';
 </head>
 <body>
     <div class="container">
-        <?php foreach ($articles as $article) :?>
-        <article>
+        <?php foreach ($articles as $i => $article) :?>
+        <article id="<?php echo $i; ?>">
             <h1><?php echo $article['title']; ?></h1>
-            <p class="date"><?php echo $article['published'] ?></p>
+            <h3 class="author"><?php echo $authors[$article['authorId']]['name'];?></h3>
+            <h3 class="date"><?php echo $article['published'] ?></h3>
             <p class="content"><?php echo $article['content']; ?></p>
-            <p class="author"><?php echo getName($article, $authors); ?></p>
             <button class="likes"><?php echo $article['likes']; ?></button>
         </article>
         <?php endforeach; ?>
