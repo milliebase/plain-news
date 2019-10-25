@@ -1,2 +1,2 @@
-# Newsfeed
+# Plain News
 First school assignment
