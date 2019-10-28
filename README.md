@@ -5,7 +5,7 @@
 This is my first school assignment for our programming course as a web development student at YRGO.
 
 __The assignment had to consist of:__
-* A fake newsfeed containing 5 different authors with at least 2 articles each in PHP.
+* A fake newsfeed written in PHP containing 5 different authors with at least 2 articles each.
 * PHP functionality such as:
     * Variables
     * Multiple data types
