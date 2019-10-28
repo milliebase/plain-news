@@ -61,7 +61,7 @@ $articles =
         Mauris eleifend sem sed nunc congue feugiat. Vivamus vitae augue eget odio dapibus laoreet sit amet a arcu. Aenean et consequat sem. Aliquam hendrerit facilisis purus id posuere. Ut at nisi mi. Cras arcu nisl, imperdiet ut felis id, tristique luctus libero. Nam mattis semper luctus. Quisque molestie lacinia tortor malesuada dictum. Vestibulum suscipit augue neque, eget tempus tortor sodales ut. Donec scelerisque massa id volutpat posuere. Sed vestibulum lacus non fringilla mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'authorId' => 5,
         'published' => '2018-09-04',
-        'likes' => 148796,
+        'likes' => 1487,
     ],
     [
         'title' => 'The life of a winner',
@@ -72,7 +72,7 @@ $articles =
         Mauris eleifend sem sed nunc congue feugiat. Vivamus vitae augue eget odio dapibus laoreet sit amet a arcu. Aenean et consequat sem. Aliquam hendrerit facilisis purus id posuere. Ut at nisi mi. Cras arcu nisl, imperdiet ut felis id, tristique luctus libero. Nam mattis semper luctus. Quisque molestie lacinia tortor malesuada dictum. Vestibulum suscipit augue neque, eget tempus tortor sodales ut. Donec scelerisque massa id volutpat posuere. Sed vestibulum lacus non fringilla mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'authorId' => 4,
         'published' => '2019-09-31',
-        'likes' => 46357,
+        'likes' => 467,
     ],
     [
         'title' => 'Valar morghulis and how D&D took my storyline down the garbage',
@@ -83,7 +83,7 @@ $articles =
         Mauris eleifend sem sed nunc congue feugiat. Vivamus vitae augue eget odio dapibus laoreet sit amet a arcu. Aenean et consequat sem. Aliquam hendrerit facilisis purus id posuere. Ut at nisi mi. Cras arcu nisl, imperdiet ut felis id, tristique luctus libero. Nam mattis semper luctus. Quisque molestie lacinia tortor malesuada dictum. Vestibulum suscipit augue neque, eget tempus tortor sodales ut. Donec scelerisque massa id volutpat posuere. Sed vestibulum lacus non fringilla mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'authorId' => 3,
         'published' => '2019-11-03',
-        'likes' => 87044,
+        'likes' => 8704,
     ],
     [
         'title' => 'Jon?',
@@ -105,7 +105,7 @@ $articles =
         Mauris eleifend sem sed nunc congue feugiat. Vivamus vitae augue eget odio dapibus laoreet sit amet a arcu. Aenean et consequat sem. Aliquam hendrerit facilisis purus id posuere. Ut at nisi mi. Cras arcu nisl, imperdiet ut felis id, tristique luctus libero. Nam mattis semper luctus. Quisque molestie lacinia tortor malesuada dictum. Vestibulum suscipit augue neque, eget tempus tortor sodales ut. Donec scelerisque massa id volutpat posuere. Sed vestibulum lacus non fringilla mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'authorId' => 3,
         'published' => '2016-08-14',
-        'likes' => 487,
+        'likes' => 237,
     ],
     [
         'title' => 'I still know nothing',
@@ -116,7 +116,7 @@ $articles =
         Mauris eleifend sem sed nunc congue feugiat. Vivamus vitae augue eget odio dapibus laoreet sit amet a arcu. Aenean et consequat sem. Aliquam hendrerit facilisis purus id posuere. Ut at nisi mi. Cras arcu nisl, imperdiet ut felis id, tristique luctus libero. Nam mattis semper luctus. Quisque molestie lacinia tortor malesuada dictum. Vestibulum suscipit augue neque, eget tempus tortor sodales ut. Donec scelerisque massa id volutpat posuere. Sed vestibulum lacus non fringilla mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'authorId' => 1,
         'published' => '2020-10-23',
-        'likes' => 487,
+        'likes' => 343,
     ],
     [
         'title' => 'Open letter to prince Charming',
