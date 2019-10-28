@@ -5,7 +5,7 @@
 This is my first school assignment for our programming course as a web development student at YRGO.
 
 __The assignment had to consist of:__
-* A fake news feed containing 5 different authors with at least 2 articles each in PHP.
+* A fake newsfeed containing 5 different authors with at least 2 articles each in PHP.
 * PHP functionality such as:
     * Variables
     * Multiple data types
@@ -22,7 +22,7 @@ __Languages allowed:__
 
 ## Installation
 
-1. To be able to see this webpage clone this repository to your directory through the terminal.
+1. To be able to see this webpage, clone this repository to your directory through the terminal.
 ```
 $ git clone https://github.com/milliebase/plain-news.git
 ```
@@ -37,7 +37,7 @@ $ cd plain-news
 $ php -S localhost:8000
 ```
 
-4. Enjoy my fake news feed made by Game of Thrones characters.
+4. Enjoy my fake newsfeed made by Game of Thrones characters.
 
     <img src="https://media.giphy.com/media/QULik7rPy5V9VjBXFM/giphy.gif">
 
