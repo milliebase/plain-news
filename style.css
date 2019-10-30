@@ -331,11 +331,14 @@ footer {
 
         .articleTxt {
             width: 100%;
-            padding: 8%;
+        }
+
+        .articleTxt img {
+            border-top-right-radius: 10px;
         }
 
         .text {
-            margin-bottom: 8%;
+            margin-bottom: 5%;
         }
 
         .likeBtn {
