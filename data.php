@@ -43,6 +43,7 @@ $articles =
         'authorId' => 1,
         'published' => '2017-10-23',
         'likes' => 2345,
+        'image' => '/img/jonwhat.jpg',
     ],
     [
         'title' => 'Where\'s my wine?',
@@ -54,6 +55,7 @@ $articles =
         'authorId' => 5,
         'published' => '2018-09-04',
         'likes' => 1487,
+        'image' => '/img/tyrionwine.jpg',
     ],
     [
         'title' => 'The life of a winner',
@@ -65,6 +67,7 @@ $articles =
         'authorId' => 4,
         'published' => '2019-09-31',
         'likes' => 467,
+        'image' => '/img/brienne.jpg',
     ],
     [
         'title' => 'Valar morghulis and how D&D took my storyline down the garbage',
@@ -76,6 +79,7 @@ $articles =
         'authorId' => 3,
         'published' => '2019-11-03',
         'likes' => 8704,
+        'image' => '/img/aryamad.jpg',
     ],
     [
         'title' => 'Jon?',
@@ -87,6 +91,7 @@ $articles =
         'authorId' => 2,
         'published' => '2017-08-14',
         'likes' => 487,
+        'image' => '/img/jonsansa.jpg',
     ],
     [
         'title' => 'What up fam?',
@@ -98,6 +103,7 @@ $articles =
         'authorId' => 3,
         'published' => '2016-08-14',
         'likes' => 237,
+        'image' => '/img/aryajon.jpg',
     ],
     [
         'title' => 'I still know nothing',
@@ -109,6 +115,7 @@ $articles =
         'authorId' => 1,
         'published' => '2020-10-23',
         'likes' => 343,
+        'image' => '/img/knowsnothing.jpeg',
     ],
     [
         'title' => 'Open letter to prince Charming',
@@ -120,6 +127,7 @@ $articles =
         'authorId' => 4,
         'published' => '2019-12-14',
         'likes' => 2356,
+        'image' => '/img/briennewriting.jpg',
     ],
     [
         'title' => 'Queen of the North',
@@ -131,6 +139,7 @@ $articles =
         'authorId' => 2,
         'published' => '2019-04-25',
         'likes' => 1347,
+        'image' => '/img/sansaqueen.jpeg',
     ],
     [
         'title' => 'Tales of an imp',
@@ -142,5 +151,6 @@ $articles =
         'authorId' => 5,
         'published' => '2020-02-23',
         'likes' => 46205,
+        'image' => '/img/tyriontale.jpg',
     ],
 ];
