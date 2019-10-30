@@ -179,8 +179,8 @@ footer {
 
 /* Portrait */
 @media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1024px) {
+    and (min-width: 768px)
+    and (max-width: 1024px) {
 
         h1 {
             font-size: 3em;
@@ -220,8 +220,8 @@ footer {
 
 /* Portrait */
 @media only screen
-    and (min-device-width: 375px)
-    and (max-device-width: 766px) {
+    and (min-width: 375px)
+    and (max-width: 766px) {
 
         body {
             background-position: center bottom;
