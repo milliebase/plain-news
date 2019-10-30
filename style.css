@@ -37,16 +37,46 @@ body {
 .authorBtn {
     margin: 1%;
     padding: 1%;
-    background-color: black;
-    color: white;
+    background-color: white;
     border-radius: 20px;
     width: 12%;
+    box-shadow: 1px 1px 3px lightgrey;
 }
 
 .authorBtn:hover {
-    background-color: white;
-    color: black;
+    color: white;
 }
+
+.authorBtn:nth-child(1):hover {
+    background-color: rosybrown;
+}
+
+.authorBtn:nth-child(2):hover {
+    background-color: lightcoral;
+}
+
+.authorBtn:nth-child(3):hover {
+    background-color: coral;
+}
+
+.authorBtn:nth-child(4):hover {
+    background-color: indianred;
+}
+
+.authorBtn:nth-child(5):hover {
+    background-color: orange;
+}
+
+.authorBtn:focus {
+    outline: none;
+}
+
+.authorBtn:active {
+    border: 1px solid lightgrey;
+    transform: translateY(2px);
+    box-shadow: 1px 1px 3px rgba(54, 54, 54, 0.527);
+}
+
 /**********CONTAINER SECTION**********/
 
 .container {
@@ -66,22 +96,19 @@ article {
     box-shadow: 2px 2px 10px 1px lightgrey;
 }
 
-article img {
-    width: 30%;
-    border-radius: 100%;
-    margin-left: 5%;
-}
-
 .articleTxt {
     width: 70%;
     display: flex;
     flex-direction: column;
-    padding: 5%;
     font-weight: 300;
 }
 
-.text {
-    margin-top: 5%;
+.articleTxt img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+    object-position: 100% 20%;
 }
 
 .info {
@@ -92,6 +119,12 @@ article img {
     text-align: right;
     padding: 2%;
     border-radius: 0 10px 10px 0;
+}
+
+.info img {
+    width: 30%;
+    border-radius: 100%;
+    margin-left: 5%;
 }
 
 .likeBtn {
@@ -105,6 +138,8 @@ article img {
     font-weight: 500;
     transition-property: all;
     transition-duration: 100ms;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .likeBtn:hover {
@@ -151,11 +186,16 @@ h1 {
     padding-bottom: 1%;
 }
 
+.text, .date, h2 {
+    padding: 0 5%;
+}
+
 h2, h3 {
     margin: 0;
 }
 
 h2 {
+    margin-top: 4%;
     font-size: 3em;
 }
 
@@ -172,6 +212,10 @@ h3.author {
     margin-bottom: 5%;
     color: white;
     font-weight: 400;
+}
+
+.text {
+    margin-top: 3%;
 }
 
 
@@ -238,7 +282,7 @@ footer {
             text-align: center;
         }
 
-        article img {
+        .info img {
             width: 50%;
             margin-bottom: 5%;
         }
@@ -285,10 +329,6 @@ footer {
             width: 95%;
         }
 
-        article img {
-            width: 25%;
-        }
-
         .articleTxt {
             width: 100%;
             padding: 8%;
@@ -309,6 +349,9 @@ footer {
             padding: 8%;
         }
 
+        .info img {
+            width: 25%;
+        }
 
 }
 
