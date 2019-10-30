@@ -1,36 +1,49 @@
 <?php
-// This is the file where you can keep your HTML markup. We should always try to
-// keep us much logic out of the HTML as possible. Put the PHP logic in the top
-// of the files containing HTML or even better; in another PHP file altogether.
 
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
-usort($articles, "sortDates"); //Sort the dates of the articles in descending order.
+if (isset($_GET['author'])) { //Checks which button is clicked
+
+    $authorId = $_GET['author']; //Gets value from given button
+    $articles = filteredAuthor($articles, $authorId);
+}
+
+usort($articles, 'sortDates'); //Sort the dates of the articles in descending order.
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>Newsfeed</title>
     <link href='https://unpkg.com/sanitize.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,300,500,900&display=swap" rel="stylesheet">
+    <link href='style.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:100,300,500,900&display=swap' rel='stylesheet'>
 </head>
 <body>
 
-    <nav class="header">
-        <h1>King's Landing Times</h1>
+    <nav class='header'>
 
-        <ul class="menu">
-            <li>Jon Snow</li>
-            <li>Arya Stark</li>
-            <li>Sansa Stark</li>
-            <li>Brienne of Tarth</li>
-            <li>Tyrion Lannister</li>
-        </ul>
+        <h1><a href="index.php">King's Landing Times</a></h1>
+
+        <form action='' method='GET' class='menu'>
+
+            <?php foreach ($authors as $i => $author) :
+
+                $firstName = $author['firstName'];
+                $lastName = $author['lastName'];
+                $name = "$firstName $lastName";
+
+            ?>
+
+                <button type='submit' name='author' value='<?php echo $i; ?>'><?php echo "$name"; ?></button>
+
+            <?php endforeach; ?>
+
+        </form>
+
     </nav>
