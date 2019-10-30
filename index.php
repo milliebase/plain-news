@@ -13,6 +13,7 @@ require __DIR__.'/header.php';
         $portrait = $authors[$article['authorId']]['portrait'];
         $date = $article['published'];
         $likes = $article['likes'];
+        $image = $article['image'];
 
         $firstName = $authors[$article['authorId']]['firstName'];
         $lastName = $authors[$article['authorId']]['lastName'];
@@ -23,6 +24,7 @@ require __DIR__.'/header.php';
         <article>
 
                 <div class="articleTxt">
+                    <img src="<?php echo $image; ?>" alt="<?php echo $title; ?> image">
                     <h2><?php echo $title; ?></h2>
                     <h3 class="date">Published: <?php echo $date; ?></h3>
                     <p class="text"><?php echo $text; ?></p>
