@@ -6,22 +6,20 @@ body {
     padding-bottom: 8%;
 }
 
+* {
+    font-family: 'Montserrat', serif;
+}
+
 /*************HEADER SECTION*************/
+
 
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 1.5% 0;
-    font-family: 'Montserrat', serif;
+    margin: 1% 0;
     width: 100%;
-}
-
-h1 {
-    font-size: 5em;
-    border-bottom: 2px solid black;
-    padding-bottom: 2%;
 }
 
 .header a {
@@ -36,8 +34,18 @@ h1 {
     justify-content: center;
 }
 
-.menu button {
-    margin: 2%;
+.authorBtn {
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 12%;
+}
+
+.authorBtn:hover {
+    background-color: white;
+    color: black;
 }
 /**********CONTAINER SECTION**********/
 
@@ -52,7 +60,6 @@ article {
     width: 80%;
     margin: 2%;
     display: flex;
-    font-family: 'Montserrat', sans-serif;
     background-color: white;
     border-radius: 10px;
     border: 1px solid lightgrey;
@@ -138,6 +145,11 @@ article img {
 
 
 /*************TEXT****************/
+h1 {
+    font-size: 4.5em;
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+}
 
 h2, h3 {
     margin: 0;
@@ -189,7 +201,7 @@ footer {
     and (max-width: 1024px) {
 
         h1 {
-            font-size: 3em;
+            font-size: 4em;
         }
 
         h2 {
@@ -204,8 +216,12 @@ footer {
             font-size: 1em;
         }
 
+        .authorBtn {
+            width: 15%;
+        }
+
         article {
-            z-index: 1;
+            width: 90%;
         }
 
         .likeBtn {
@@ -239,7 +255,7 @@ footer {
         }
 
         h1 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin-right: 5%;
             margin-left: 5%;
             text-align: center;
@@ -249,12 +265,19 @@ footer {
             font-size: 1.9em;
         }
 
-        h3 {
+        h3, p {
             font-size: 0.9em;
         }
 
-        p {
-            font-size: 0.9em;
+        .menu {
+            flex-wrap: wrap;
+            width: 90%;
+        }
+
+        .authorBtn {
+            width: 30%;
+            font-size: 0.5em;
+            padding: 3% 2%;
         }
 
         article {
