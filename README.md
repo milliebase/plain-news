@@ -43,9 +43,9 @@ $ php -S localhost:8000
 
 ## Features
 
-* Sort articles by descending order
+* Sort articles by descending order by default
 * Like button (spam it a thousand times if you'd like)
-
+* Filter articles by author
 * Media Queries for iPad and iPhone 6/7/8
 
 ## Author
