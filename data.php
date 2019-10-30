@@ -11,31 +11,26 @@ $authors =
         'firstName' => 'Jon',
         'lastName' => 'Snow',
         'portrait' => '/img/jonsnow.jpg',
-        'class' => 'jon',
     ],
     2 => [
         'firstName' => 'Sansa',
         'lastName' => 'Stark',
         'portrait' => '/img/sansastark.png',
-        'class' => 'sansa',
     ],
     3 => [
         'firstName' => 'Arya',
         'lastName' => 'Stark',
         'portrait' => '/img/aryastark.jpg',
-        'class' => 'arya',
     ],
     4 => [
         'firstName' => 'Brienne',
         'lastName' => 'of Tarth',
         'portrait' => '/img/brienneoftarth.jpg',
-        'class' => 'brienne',
     ],
     5 => [
         'firstName' => 'Tyrion',
         'lastName' => 'Lannister',
         'portrait' => '/img/tyrionlannister.jpg',
-        'class' => 'tyrion',
     ],
 ];
 
