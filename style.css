@@ -56,7 +56,7 @@ article img {
     margin-left: 5%;
 }
 
-.newsTxt {
+.articleTxt {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -87,10 +87,18 @@ article img {
     color: white;
     font-size: 0.8em;
     font-weight: 500;
+    transition-property: all;
+    transition-duration: 100ms;
+}
+
+.likeBtn:hover {
+    color: black;
 }
 
 .likeBtn:active {
     border: 1px solid lightgrey;
+    transform: translateY(2px);
+    box-shadow: 1px 1px 5px rgba(54, 54, 54, 0.527);
 }
 
 
@@ -108,11 +116,11 @@ article img {
 }
 
 .arya {
-    background-color: sandybrown;
+    background-color: coral;
 }
 
 .brienne {
-    background-color: wheat;
+    background-color: indianred;
 }
 
 .tyrion {
@@ -135,11 +143,11 @@ h3 {
 }
 
 
-.newsTxt h3 {
+h3.date {
     font-weight: 100;
 }
 
-.info h3 {
+h3.author {
     margin-bottom: 5%;
     color: white;
     font-weight: 400;
