@@ -40,7 +40,9 @@ usort($articles, 'sortDates'); //Sort the dates of the articles in descending or
 
             ?>
 
-                <button type='submit' name='author' value='<?php echo $i; ?>'><?php echo "$name"; ?></button>
+                <button class="authorBtn" type='submit' name='author' value='<?php echo $i; ?>'>
+                        <?php echo "$name"; ?>
+                </button>
 
             <?php endforeach; ?>
 
