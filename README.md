@@ -46,7 +46,7 @@ $ php -S localhost:8000
 * Sort articles by descending order
 * Like button (spam it a thousand times if you'd like)
 
-* Media Queries for iPad and iPhone 8
+* Media Queries for iPad and iPhone 6/7/8
 
 ## Author
 Betsy Alva Soplin
