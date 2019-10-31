@@ -64,7 +64,7 @@ __Browsers:__
 
 ## Code reviews
 
-* __Emelie Petersson__
+__Emelie Petersson__
 
 1.~~Buttons have different stylings in safari, firefox and brave. Font-size is bigger in safari.~~
 
