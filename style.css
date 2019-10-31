@@ -92,7 +92,7 @@ article {
 }
 
 .info {
-    width: 30%;
+    width: calc(30% + 50px);
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
