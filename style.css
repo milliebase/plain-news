@@ -37,34 +37,15 @@ body {
 .authorBtn {
     margin: 1%;
     padding: 1%;
-    background-color: white;
+    background-color: gainsboro;
     border-radius: 20px;
     width: 12%;
     box-shadow: 1px 1px 3px lightgrey;
+    border: none;
 }
 
 .authorBtn:hover {
     color: white;
-}
-
-.authorBtn:nth-child(1):hover {
-    background-color: rosybrown;
-}
-
-.authorBtn:nth-child(2):hover {
-    background-color: lightcoral;
-}
-
-.authorBtn:nth-child(3):hover {
-    background-color: coral;
-}
-
-.authorBtn:nth-child(4):hover {
-    background-color: indianred;
-}
-
-.authorBtn:nth-child(5):hover {
-    background-color: orange;
 }
 
 .authorBtn:focus {
@@ -72,9 +53,9 @@ body {
 }
 
 .authorBtn:active {
-    border: 1px solid lightgrey;
     transform: translateY(2px);
     box-shadow: 1px 1px 3px rgba(54, 54, 54, 0.527);
+    border: none;
 }
 
 /**********CONTAINER SECTION**********/
@@ -83,7 +64,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 article {
@@ -140,6 +120,7 @@ article {
     transition-duration: 100ms;
     margin-left: 5%;
     margin-bottom: 5%;
+    border: none;
 }
 
 .likeBtn:hover {
@@ -147,34 +128,33 @@ article {
 }
 
 .likeBtn:active {
-    border: 1px solid lightgrey;
     transform: translateY(2px);
     box-shadow: 1px 1px 5px rgba(54, 54, 54, 0.527);
+    border: none;
 }
-
 
 .likeBtn:focus {
     outline: none;
 }
 
-/*************AUTHORS****************/
-.jon {
+/*************AUTHORS AND COLORS****************/
+.jon, .authorBtn:nth-child(1):hover {
     background-color: rosybrown;
 }
 
-.sansa {
+.sansa, .authorBtn:nth-child(2):hover {
     background-color: lightcoral;
 }
 
-.arya {
+.arya, .authorBtn:nth-child(3):hover  {
     background-color: coral;
 }
 
-.brienne {
+.brienne, .authorBtn:nth-child(4):hover  {
     background-color: indianred;
 }
 
-.tyrion {
+.tyrion, .authorBtn:nth-child(5):hover {
     background-color: orange;
 }
 
@@ -232,8 +212,6 @@ footer {
     padding-right: 10%;
     font-weight: 500;
 }
-
-
 
 /******************************************/
 /**************MEDIA QUERIES***************/
