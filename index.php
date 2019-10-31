@@ -24,7 +24,7 @@ require __DIR__.'/header.php';
         <article>
 
                 <div class="articleTxt">
-                    <img src="<?php echo $image; ?>" alt="<?php echo $title; ?> image" loading="lazy">
+                    <img src="/img/<?php echo $image; ?>" alt="<?php echo $title; ?> image" loading="lazy">
                     <h2><?php echo $title; ?></h2>
                     <h3 class="date">Published: <?php echo $date; ?></h3>
                     <p class="text"><?php echo $text; ?></p>
@@ -33,7 +33,7 @@ require __DIR__.'/header.php';
 
                 <div class="info <?php echo $class;?>">
                     <h3 class="author">Written by <br><?php echo $name; ?></h3>
-                    <img src="<?php echo $portrait; ?>" alt="<?php echo $name?>" loading="lazy">
+                    <img src="/img/<?php echo $portrait; ?>" alt="<?php echo $name?>" loading="lazy">
                 </div>
 
         </article>
