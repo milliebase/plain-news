@@ -52,13 +52,30 @@ $ php -S localhost:8000
 Betsy Alva Soplin
 
 ## Tested by
-* TBA
-* TBA
-* TBA
+* Jesper Lundqvist
+* Henric Björkvall
+
+__Browsers:__
+
+- [x] Brave
+- [x] Google Chrome
+- [x] Safari
+- [x] Firefox
 
 ## Code reviews
 
-* TBA
+__Emelie Petersson__
+
+1.~~Buttons have different stylings in safari, firefox and brave. Font-size is bigger in safari.~~
+
+2.~~In docblocker for callback function to usort(), return type is set to integer but the function returns a boolean~~
+
+3.~~Instead of writing “img/“ to each image in arrays, write it once in src=“img/…“ in html~~
+
+4.Maybe add something to the javascript like function to make it clickable once per unique visitor?
+
+5.~~In CSS, instead of repeating the background-colour to each author, try add the class after each button selector instead: .authorBtn:nth-child(1):hover, .jon ?~~
+
 
 ## License
 MIT
