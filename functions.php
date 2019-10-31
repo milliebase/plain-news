@@ -7,7 +7,8 @@ declare(strict_types=1);
  *
  * @param array $a
  * @param array $b
- * @return integer
+ *
+ * @return bool
  */
 function sortDates (array $a, array $b): bool
 {
@@ -19,6 +20,7 @@ function sortDates (array $a, array $b): bool
  *
  * @param array $items
  * @param integer $id
+ *
  * @return array
  */
 function filteredAuthor (array $items, int $id): array
